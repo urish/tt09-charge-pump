@@ -50,20 +50,8 @@ XM4 clkb clka VGND GND sky130_fd_pr__nfet_01v8 L=0.45 W=1 nf=1 ad='int((nf+1)/2)
 + pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
 + sa=0 sb=0 sd=0 mult=1 m=1
 XC3 clka stage3 sky130_fd_pr__cap_mim_m3_1 W=25 L=25 MF=1 m=1
-XM5 stage1 VPWR VPWR VPWR sky130_fd_pr__nfet_01v8_lvt L=8 W=7 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
 XC1 clka stage1 sky130_fd_pr__cap_mim_m3_1 W=25 L=25 MF=1 m=1
-XM6 stage2 stage1 stage1 stage1 sky130_fd_pr__nfet_01v8_lvt L=8 W=7 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
-+ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
-+ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
-XM7 stage3 stage2 stage2 stage2 sky130_fd_pr__nfet_01v8_lvt L=8 W=7 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
-+ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
-+ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XC2 clkb stage2 sky130_fd_pr__cap_mim_m3_1 W=25 L=25 MF=1 m=1
-XM8 vout stage3 stage3 stage3 sky130_fd_pr__nfet_01v8_lvt L=8 W=7 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
-+ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
-+ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
 XC4 VGND vout sky130_fd_pr__cap_mim_m3_1 W=30 L=25 MF=1 m=1
 XM9 ua[0] ua[0] vout vout sky130_fd_pr__pfet_g5v0d10v5 L=40 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
 + as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
@@ -71,6 +59,10 @@ XM9 ua[0] ua[0] vout vout sky130_fd_pr__pfet_g5v0d10v5 L=40 W=0.42 nf=1 ad='int(
 XM10 VGND VGND ua[0] ua[0] sky130_fd_pr__pfet_g5v0d10v5 L=40 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
 + as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
 + nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+D1 VPWR stage1 sky130_fd_pr__diode_pd2nw_11v0 area=1e12 pj=4e6
+D2 stage1 stage2 sky130_fd_pr__diode_pd2nw_11v0 area=1e12 pj=4e6
+D3 stage2 stage3 sky130_fd_pr__diode_pd2nw_11v0 area=1e12 pj=4e6
+D4 stage3 vout sky130_fd_pr__diode_pd2nw_11v0 area=1e12 pj=4e6
 .ends
 
 .GLOBAL GND
