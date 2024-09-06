@@ -703,7 +703,7 @@ flabel metal2 22320 37800 22500 42120 0 FreeSans 1600 0 0 0 stage1
 flabel metal2 22320 32400 22500 36480 0 FreeSans 1600 0 0 0 stage2
 flabel metal3 19380 21660 19620 23880 0 FreeSans 1600 0 0 0 vout
 flabel metal2 22336 28800 22516 31080 0 FreeSans 1600 0 0 0 stage3
-flabel metal4 28440 1000 28740 44152 1 FreeSans 2 0 0 0 VPWR
+flabel metal4 28440 1000 28740 44152 1 FreeSans 2 0 0 0 VDPWR
 port 51 nsew power bidirectional
 << properties >>
 string FIXED_BBOX 0 0 32200 45152
