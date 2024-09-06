@@ -8,4 +8,6 @@ To import the GDS file into magic (and update the graphics), run the following c
 gds read ../art/high_voltage.gds
 ```
 
+Then, save the result into a `.mag` file, and you'll be able to place the resulting layout into your own project (select "Place Instance" from the "Cell" menu).
+
 Enjoy!
