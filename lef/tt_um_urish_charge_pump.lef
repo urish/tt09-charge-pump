@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_urish_charge_pump
   CLASS BLOCK ;
   FOREIGN tt_um_urish_charge_pump ;
@@ -9,7 +13,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNAGATEAREA 1.125000 ;
     PORT
       LAYER met4 ;
-        RECT 154.870 224.760 155.170 225.760 ;
+        RECT 143.830 224.760 144.130 225.760 ;
     END
   END clk
   PIN ena
@@ -17,7 +21,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 158.550 224.760 158.850 225.760 ;
+        RECT 146.590 224.760 146.890 225.760 ;
     END
   END ena
   PIN rst_n
@@ -25,7 +29,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 151.190 224.760 151.490 225.760 ;
+        RECT 141.070 224.760 141.370 225.760 ;
     END
   END rst_n
   PIN ua[0]
@@ -35,7 +39,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 25.804199 ;
     PORT
       LAYER met4 ;
-        RECT 156.410 0.000 157.310 1.000 ;
+        RECT 151.810 0.000 152.710 1.000 ;
     END
   END ua[0]
   PIN ua[1]
@@ -43,7 +47,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 134.330 0.000 135.230 1.000 ;
+        RECT 132.490 0.000 133.390 1.000 ;
     END
   END ua[1]
   PIN ua[2]
@@ -51,7 +55,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 112.250 0.000 113.150 1.000 ;
+        RECT 113.170 0.000 114.070 1.000 ;
     END
   END ua[2]
   PIN ua[3]
@@ -59,7 +63,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 90.170 0.000 91.070 1.000 ;
+        RECT 93.850 0.000 94.750 1.000 ;
     END
   END ua[3]
   PIN ua[4]
@@ -67,7 +71,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 68.090 0.000 68.990 1.000 ;
+        RECT 74.530 0.000 75.430 1.000 ;
     END
   END ua[4]
   PIN ua[5]
@@ -75,7 +79,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 46.010 0.000 46.910 1.000 ;
+        RECT 55.210 0.000 56.110 1.000 ;
     END
   END ua[5]
   PIN ua[6]
@@ -83,7 +87,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 23.930 0.000 24.830 1.000 ;
+        RECT 35.890 0.000 36.790 1.000 ;
     END
   END ua[6]
   PIN ua[7]
@@ -91,7 +95,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 1.850 0.000 2.750 1.000 ;
+        RECT 16.570 0.000 17.470 1.000 ;
     END
   END ua[7]
   PIN ui_in[0]
@@ -99,7 +103,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 147.510 224.760 147.810 225.760 ;
+        RECT 138.310 224.760 138.610 225.760 ;
     END
   END ui_in[0]
   PIN ui_in[1]
@@ -107,7 +111,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 143.830 224.760 144.130 225.760 ;
+        RECT 135.550 224.760 135.850 225.760 ;
     END
   END ui_in[1]
   PIN ui_in[2]
@@ -115,7 +119,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 140.150 224.760 140.450 225.760 ;
+        RECT 132.790 224.760 133.090 225.760 ;
     END
   END ui_in[2]
   PIN ui_in[3]
@@ -123,7 +127,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 136.470 224.760 136.770 225.760 ;
+        RECT 130.030 224.760 130.330 225.760 ;
     END
   END ui_in[3]
   PIN ui_in[4]
@@ -131,7 +135,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 132.790 224.760 133.090 225.760 ;
+        RECT 127.270 224.760 127.570 225.760 ;
     END
   END ui_in[4]
   PIN ui_in[5]
@@ -139,7 +143,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 129.110 224.760 129.410 225.760 ;
+        RECT 124.510 224.760 124.810 225.760 ;
     END
   END ui_in[5]
   PIN ui_in[6]
@@ -147,7 +151,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 125.430 224.760 125.730 225.760 ;
+        RECT 121.750 224.760 122.050 225.760 ;
     END
   END ui_in[6]
   PIN ui_in[7]
@@ -155,7 +159,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 121.750 224.760 122.050 225.760 ;
+        RECT 118.990 224.760 119.290 225.760 ;
     END
   END ui_in[7]
   PIN uio_in[0]
@@ -163,7 +167,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 118.070 224.760 118.370 225.760 ;
+        RECT 116.230 224.760 116.530 225.760 ;
     END
   END uio_in[0]
   PIN uio_in[1]
@@ -171,7 +175,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 114.390 224.760 114.690 225.760 ;
+        RECT 113.470 224.760 113.770 225.760 ;
     END
   END uio_in[1]
   PIN uio_in[2]
@@ -187,7 +191,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 107.030 224.760 107.330 225.760 ;
+        RECT 107.950 224.760 108.250 225.760 ;
     END
   END uio_in[3]
   PIN uio_in[4]
@@ -195,7 +199,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 103.350 224.760 103.650 225.760 ;
+        RECT 105.190 224.760 105.490 225.760 ;
     END
   END uio_in[4]
   PIN uio_in[5]
@@ -203,7 +207,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 99.670 224.760 99.970 225.760 ;
+        RECT 102.430 224.760 102.730 225.760 ;
     END
   END uio_in[5]
   PIN uio_in[6]
@@ -211,7 +215,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 95.990 224.760 96.290 225.760 ;
+        RECT 99.670 224.760 99.970 225.760 ;
     END
   END uio_in[6]
   PIN uio_in[7]
@@ -219,7 +223,7 @@ MACRO tt_um_urish_charge_pump
     USE SIGNAL ;
     PORT
       LAYER met4 ;
-        RECT 92.310 224.760 92.610 225.760 ;
+        RECT 96.910 224.760 97.210 225.760 ;
     END
   END uio_in[7]
   PIN uio_oe[0]
@@ -229,7 +233,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 29.750 224.760 30.050 225.760 ;
+        RECT 49.990 224.760 50.290 225.760 ;
     END
   END uio_oe[0]
   PIN uio_oe[1]
@@ -239,7 +243,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 26.070 224.760 26.370 225.760 ;
+        RECT 47.230 224.760 47.530 225.760 ;
     END
   END uio_oe[1]
   PIN uio_oe[2]
@@ -249,7 +253,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 22.390 224.760 22.690 225.760 ;
+        RECT 44.470 224.760 44.770 225.760 ;
     END
   END uio_oe[2]
   PIN uio_oe[3]
@@ -259,7 +263,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 18.710 224.760 19.010 225.760 ;
+        RECT 41.710 224.760 42.010 225.760 ;
     END
   END uio_oe[3]
   PIN uio_oe[4]
@@ -269,7 +273,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 15.030 224.760 15.330 225.760 ;
+        RECT 38.950 224.760 39.250 225.760 ;
     END
   END uio_oe[4]
   PIN uio_oe[5]
@@ -279,7 +283,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 11.350 224.760 11.650 225.760 ;
+        RECT 36.190 224.760 36.490 225.760 ;
     END
   END uio_oe[5]
   PIN uio_oe[6]
@@ -289,7 +293,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 7.670 224.760 7.970 225.760 ;
+        RECT 33.430 224.760 33.730 225.760 ;
     END
   END uio_oe[6]
   PIN uio_oe[7]
@@ -299,7 +303,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 3.990 224.760 4.290 225.760 ;
+        RECT 30.670 224.760 30.970 225.760 ;
     END
   END uio_oe[7]
   PIN uio_out[0]
@@ -309,7 +313,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 59.190 224.760 59.490 225.760 ;
+        RECT 72.070 224.760 72.370 225.760 ;
     END
   END uio_out[0]
   PIN uio_out[1]
@@ -319,7 +323,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 55.510 224.760 55.810 225.760 ;
+        RECT 69.310 224.760 69.610 225.760 ;
     END
   END uio_out[1]
   PIN uio_out[2]
@@ -329,7 +333,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 51.830 224.760 52.130 225.760 ;
+        RECT 66.550 224.760 66.850 225.760 ;
     END
   END uio_out[2]
   PIN uio_out[3]
@@ -339,7 +343,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 48.150 224.760 48.450 225.760 ;
+        RECT 63.790 224.760 64.090 225.760 ;
     END
   END uio_out[3]
   PIN uio_out[4]
@@ -349,7 +353,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 44.470 224.760 44.770 225.760 ;
+        RECT 61.030 224.760 61.330 225.760 ;
     END
   END uio_out[4]
   PIN uio_out[5]
@@ -359,7 +363,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 40.790 224.760 41.090 225.760 ;
+        RECT 58.270 224.760 58.570 225.760 ;
     END
   END uio_out[5]
   PIN uio_out[6]
@@ -369,7 +373,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 37.110 224.760 37.410 225.760 ;
+        RECT 55.510 224.760 55.810 225.760 ;
     END
   END uio_out[6]
   PIN uio_out[7]
@@ -379,7 +383,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 33.430 224.760 33.730 225.760 ;
+        RECT 52.750 224.760 53.050 225.760 ;
     END
   END uio_out[7]
   PIN uo_out[0]
@@ -389,7 +393,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 88.630 224.760 88.930 225.760 ;
+        RECT 94.150 224.760 94.450 225.760 ;
     END
   END uo_out[0]
   PIN uo_out[1]
@@ -399,7 +403,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 84.950 224.760 85.250 225.760 ;
+        RECT 91.390 224.760 91.690 225.760 ;
     END
   END uo_out[1]
   PIN uo_out[2]
@@ -409,7 +413,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 81.270 224.760 81.570 225.760 ;
+        RECT 88.630 224.760 88.930 225.760 ;
     END
   END uo_out[2]
   PIN uo_out[3]
@@ -419,7 +423,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 77.590 224.760 77.890 225.760 ;
+        RECT 85.870 224.760 86.170 225.760 ;
     END
   END uo_out[3]
   PIN uo_out[4]
@@ -429,7 +433,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 73.910 224.760 74.210 225.760 ;
+        RECT 83.110 224.760 83.410 225.760 ;
     END
   END uo_out[4]
   PIN uo_out[5]
@@ -439,7 +443,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 70.230 224.760 70.530 225.760 ;
+        RECT 80.350 224.760 80.650 225.760 ;
     END
   END uo_out[5]
   PIN uo_out[6]
@@ -449,7 +453,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 66.550 224.760 66.850 225.760 ;
+        RECT 77.590 224.760 77.890 225.760 ;
     END
   END uo_out[6]
   PIN uo_out[7]
@@ -459,7 +463,7 @@ MACRO tt_um_urish_charge_pump
     ANTENNADIFFAREA 3.727800 ;
     PORT
       LAYER met4 ;
-        RECT 62.870 224.760 63.170 225.760 ;
+        RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
   PIN VPWR
@@ -753,7 +757,10 @@ MACRO tt_um_urish_charge_pump
         RECT 116.970 5.160 117.490 5.660 ;
         RECT 116.970 5.100 117.480 5.160 ;
       LAYER met2 ;
-        RECT 153.800 222.250 154.100 224.750 ;
+        RECT 143.750 224.660 144.250 225.260 ;
+        RECT 143.850 224.410 144.150 224.660 ;
+        RECT 143.850 224.110 154.100 224.410 ;
+        RECT 153.800 222.250 154.100 224.110 ;
         RECT 145.800 221.350 146.700 221.750 ;
         RECT 139.500 219.900 140.100 219.950 ;
         RECT 153.800 219.900 154.100 219.950 ;
@@ -1351,9 +1358,7 @@ MACRO tt_um_urish_charge_pump
         RECT 49.500 5.100 117.470 5.700 ;
         RECT 49.500 5.050 50.100 5.100 ;
       LAYER met3 ;
-        RECT 153.750 224.700 154.150 224.725 ;
-        RECT 153.650 224.300 154.250 224.700 ;
-        RECT 153.750 224.275 154.150 224.300 ;
+        RECT 143.700 224.685 144.300 225.235 ;
         RECT 145.450 222.500 147.050 224.000 ;
         RECT 139.450 219.275 140.150 219.925 ;
         RECT 100.650 217.500 143.200 218.400 ;
@@ -1393,40 +1398,37 @@ MACRO tt_um_urish_charge_pump
         RECT 157.300 11.205 157.740 11.985 ;
         RECT 49.450 5.075 50.150 5.725 ;
       LAYER met4 ;
-        RECT 4.290 224.760 4.295 225.760 ;
-        RECT 3.995 224.005 4.295 224.760 ;
-        RECT 7.670 224.005 7.970 224.760 ;
-        RECT 11.350 224.005 11.650 224.760 ;
-        RECT 15.030 224.005 15.330 224.760 ;
-        RECT 18.710 224.005 19.010 224.760 ;
-        RECT 22.390 224.005 22.690 224.760 ;
-        RECT 26.070 224.005 26.370 224.760 ;
-        RECT 29.750 224.005 30.050 224.760 ;
-        RECT 33.430 224.005 33.730 224.760 ;
-        RECT 37.110 224.005 37.410 224.760 ;
-        RECT 40.790 224.005 41.090 224.760 ;
-        RECT 44.470 224.005 44.770 224.760 ;
-        RECT 48.150 224.005 48.450 224.760 ;
-        RECT 51.830 224.005 52.130 224.760 ;
-        RECT 55.510 224.005 55.810 224.760 ;
-        RECT 59.190 224.005 59.490 224.760 ;
-        RECT 62.870 224.005 63.170 224.760 ;
-        RECT 66.550 224.005 66.850 224.760 ;
-        RECT 70.230 224.005 70.530 224.760 ;
-        RECT 73.910 224.005 74.210 224.760 ;
-        RECT 77.590 224.005 77.890 224.760 ;
-        RECT 81.270 224.005 81.570 224.760 ;
-        RECT 84.950 224.005 85.250 224.760 ;
-        RECT 88.630 224.005 88.930 224.760 ;
-        RECT 153.695 224.650 154.205 224.705 ;
-        RECT 154.870 224.650 155.170 224.760 ;
-        RECT 153.695 224.350 155.170 224.650 ;
-        RECT 153.695 224.295 154.205 224.350 ;
-        RECT 3.995 224.000 88.945 224.005 ;
+        RECT 143.745 224.760 143.830 225.215 ;
+        RECT 144.130 224.760 144.255 225.215 ;
+        RECT 3.995 223.705 4.000 224.005 ;
+        RECT 30.670 223.500 30.970 224.760 ;
+        RECT 33.430 223.500 33.730 224.760 ;
+        RECT 36.190 223.500 36.490 224.760 ;
+        RECT 38.950 223.500 39.250 224.760 ;
+        RECT 41.710 223.500 42.010 224.760 ;
+        RECT 44.470 223.500 44.770 224.760 ;
+        RECT 47.230 223.500 47.530 224.760 ;
+        RECT 49.990 223.500 50.290 224.760 ;
+        RECT 52.750 223.500 53.050 224.760 ;
+        RECT 55.510 223.500 55.810 224.760 ;
+        RECT 58.270 223.500 58.570 224.760 ;
+        RECT 61.030 223.500 61.330 224.760 ;
+        RECT 63.790 223.500 64.090 224.760 ;
+        RECT 66.550 223.500 66.850 224.760 ;
+        RECT 69.310 223.500 69.610 224.760 ;
+        RECT 72.070 223.500 72.370 224.760 ;
+        RECT 74.830 223.500 75.130 224.760 ;
+        RECT 77.590 223.500 77.890 224.760 ;
+        RECT 80.350 223.500 80.650 224.760 ;
+        RECT 83.110 223.500 83.410 224.760 ;
+        RECT 85.870 223.500 86.170 224.760 ;
+        RECT 88.630 223.500 88.930 224.760 ;
+        RECT 91.390 223.500 91.690 224.760 ;
+        RECT 94.150 223.500 94.450 224.760 ;
+        RECT 143.745 224.705 144.255 224.760 ;
         RECT 145.495 224.000 147.005 224.005 ;
-        RECT 3.995 223.705 147.005 224.000 ;
-        RECT 4.000 223.500 147.005 223.705 ;
-        RECT 49.000 222.500 147.005 223.500 ;
+        RECT 145.500 223.500 147.005 224.000 ;
+        RECT 30.630 222.500 147.005 223.500 ;
         RECT 49.000 220.760 50.500 222.500 ;
         RECT 145.495 222.495 147.005 222.500 ;
         RECT 139.495 219.295 140.105 219.905 ;
@@ -1467,7 +1469,9 @@ MACRO tt_um_urish_charge_pump
         RECT 64.895 120.395 94.505 128.400 ;
         RECT 95.195 119.760 95.675 134.400 ;
         RECT 156.410 11.140 157.770 12.040 ;
-        RECT 156.410 1.000 157.310 11.140 ;
+        RECT 156.410 3.900 157.310 11.140 ;
+        RECT 151.810 3.000 157.310 3.900 ;
+        RECT 151.810 1.000 152.710 3.000 ;
   END
 END tt_um_urish_charge_pump
 END LIBRARY
