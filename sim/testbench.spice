@@ -6,8 +6,9 @@
 * Power supply
 V1 VGND 0 0
 V2 VDPWR VGND 1.8
+V3 VAPWR VGND 3.3
 * Clock
-V3 clk VGND PULSE(0 1.8 0 0 0 250n 500n)
+V4 clk VGND PULSE(0 1.8 0 0 0 250n 500n)
 
 .include "tt_um_urish_charge_pump.spice"
 
@@ -17,7 +18,7 @@ x1 clk ena rst_n ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
 + uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
 + uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
 + uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
-+ VDPWR VGND
++ VAPWR VGND VDPWR
 + tt_um_urish_charge_pump
 
 .tran 10n 30u
