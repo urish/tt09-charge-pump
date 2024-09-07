@@ -3,7 +3,7 @@
 # Dickson Charge Pump for Tiny Tapeout 8
 
 - [Read the documentation for project](docs/info.md)
-- [View project schematic](https://xschem-viewer.com?file=https://github.com/urish/tt08-charge-pump/blob/main/xschem/dickson.sch)
+- [View project schematic](https://xschem-viewer.com?file=https://github.com/urish/tt09-charge-pump/blob/main/xschem/dickson.sch)
 
 ![Layout](docs/layout.png)
 
